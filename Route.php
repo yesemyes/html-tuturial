@@ -1,12 +1,9 @@
 <?php 
-
 	$url = $_SERVER['REQUEST_URI'];
-
 	$urlParams = explode('/', $url);
 	array_shift($urlParams);
 	array_shift($urlParams);
 	array_shift($urlParams);
-	
 	foreach($urlParams as $key => $value){
 		if($key == 0)
 			$_GET['module'] = $value;
@@ -15,11 +12,4 @@
 		else 
 			$_GET[$key] = $value;
 	}
-	
-
-sd
-
-
-
-
 ?>
