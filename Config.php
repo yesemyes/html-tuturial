@@ -20,4 +20,5 @@ return array(
 	*/
 	'debug' => 1,
 );
+<p>Welcome</p>
 ?>
